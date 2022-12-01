@@ -6,15 +6,15 @@ import Live from './Live';
 import { useRouter } from 'next/router';
 
 interface Props {
-  stagePeers: string[];
-  backstagePeers: string[];
-  roomId: string;
+  stagePeers?: string[];
+  backstagePeers?: string[];
+  roomId?: string;
 }
 
 /**
  * Entry components for 100ms
  */
-const Room = ({ roomId, stagePeers, backstagePeers }: Props) => {
+const Room = ({ roomId = '', stagePeers = [], backstagePeers = []}: Props) => {
   const router = useRouter();
   const [token, setToken] = React.useState('');
   const actions = useHMSActions();
