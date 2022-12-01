@@ -13,7 +13,7 @@
     "dev": "next",
     "start": "next start",
     "build": "next build && next export",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
+    "deploy": "yarn build && touch out/.nojekyll && echo 'conf.onestla.tech' > out/CNAME && git add -f out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
     "license": "addlicense -l apache -c 'Vercel Inc.' components/**/* lib/**/* pages/**/* styles/**/* *.ts *.js"
   },
   "dependencies": {
