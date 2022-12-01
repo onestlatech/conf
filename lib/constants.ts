@@ -23,7 +23,7 @@ export const SITE_NAME = '1ère conférence onestla.tech';
 export const META_DESCRIPTION =
   '1ère conférence du collectif onestla.tech le 15 décembre à la Cité des sciences : une autre tech est possible';
 export const SITE_DESCRIPTION =
-  '1ère conférence du collectif onestla.tech : une autre tech est possible.';
+  'Mettre la technologie au service du bien commun.';
 export const DATE = '15 décembre 2022';
 export const SHORT_DATE = '15/12';
 export const FULL_DATE = '15 décembre';

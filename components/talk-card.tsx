@@ -18,6 +18,7 @@ import cn from 'classnames';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { parseISO, format, isBefore, isAfter } from 'date-fns';
+import { fr } from 'date-fns/locale';
 import { Talk } from '@lib/types';
 import styles from './talk-card.module.css';
 
@@ -29,7 +30,7 @@ type Props = {
 
 const formatDate = (date: string) => {
   // https://github.com/date-fns/date-fns/issues/946
-  return format(parseISO(date), "h:mmaaaaa'm'");
+  return format(parseISO(date), "p", {locale: fr});
 };
 
 export default function TalkCard({ talk: { title, speaker, start, end }, showTime }: Props) {
