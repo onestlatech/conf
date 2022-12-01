@@ -38,7 +38,8 @@ export default function Form({ sharePage }: Props) {
       [styles['share-page']]: sharePage
     })}
   >
-    <a href="https://www.apidays.global/paris/"  className={cn(styles.submit, styles.register)}>S'inscrire</a>
+    <a href="https://www.apidays.global/paris/#buy-ticket" target="_blank" className={cn(styles.submit, styles.register)}>S'inscrire gratuitement</a>
+    <p>Code promo à saisir : <b>ONESTLATECH</b></p>
   </div>;
 
   /*const [email, setEmail] = useState('');
