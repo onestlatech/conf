@@ -1,0 +1,17 @@
+{
+  "name": "Conférence onestla.tech",
+  "short_name": "Conférence onestla.tech",
+  "description": "Conférence onestla.tech",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/avatar.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+ ]
+}
