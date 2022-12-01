@@ -63,15 +63,15 @@ export default function Layout({
             </div>
             <div className={styles.tabs}>
               {NAVIGATION.map(({ name, route }) => (
-                <a
-                  key={name}
-                  href={route}
-                  className={cn(styles.tab, {
-                    [styles['tab-active']]: activeRoute.startsWith(route)
-                  })}
-                >
-                  {name}
-                </a>
+                <Link key={name} href={route}>
+                  <a
+                    className={cn(styles.tab, {
+                      [styles['tab-active']]: activeRoute.startsWith(route)
+                    })}
+                  >
+                    {name}
+                  </a>
+                </Link>
               ))}
             </div>
 

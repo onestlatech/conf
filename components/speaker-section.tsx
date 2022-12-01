@@ -15,7 +15,6 @@
  */
 
 import Link from 'next/link';
-import Image from 'next/image';
 import cn from 'classnames';
 import GithubIcon from '@components/icons/icon-github';
 import { Speaker } from '@lib/types';
@@ -57,7 +56,7 @@ export default function SpeakerSection({ speaker }: Props) {
       </Link>
       <div key={speaker.name} className={styles.container}>
         <div style={{ minWidth: '300px' }}>
-          <Image
+          <img
             alt={speaker.name}
             title={speaker.name}
             src={speaker.image.url}

@@ -15,7 +15,6 @@
  */
 
 import Link from 'next/link';
-import Image from 'next/image';
 import cn from 'classnames';
 import { Sponsor } from '@lib/types';
 import styles from './sponsors-grid.module.css';
@@ -32,7 +31,7 @@ function SponsorCard({ sponsor }: { sponsor: Sponsor }) {
         })}
       >
         <div className={styles.imageWrapper}>
-          <Image
+          <img
             alt={sponsor.name}
             src={sponsor.cardImage.url}
             className={cn(styles.image, {

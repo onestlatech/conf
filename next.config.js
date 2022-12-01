@@ -15,7 +15,7 @@
  */
 
 module.exports = {
-  images: {
+  /*images: {
     domains: [
       'www.datocms-assets.com',
       'a.storyblok.com',
@@ -25,5 +25,10 @@ module.exports = {
       'localhost' // For Strapi
     ],
     imageSizes: [24, 64, 300]
-  }
+  }*/
+  // Compatibility with next export
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };

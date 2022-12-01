@@ -15,7 +15,6 @@
  */
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { Speaker } from '@lib/types';
 import styles from './speakers-grid.module.css';
 
@@ -30,15 +29,15 @@ export default function SpeakersGrid({ speakers }: Props) {
         <Link key={speaker.name} href={`/speakers/${speaker.slug}`}>
           <a role="button" tabIndex={0} className={styles.card}>
             <div className={styles.imageWrapper}>
-              <Image
+              <img
                 alt={speaker.name}
                 src={speaker.image.url}
                 className={styles.image}
                 loading="lazy"
-                quality="50"
+                //quality="50"
                 title={speaker.name}
                 placeholder={speaker.image.blurDataURL ? 'blur' : 'empty'}
-                blurDataURL={speaker.image.blurDataURL}
+                //blurDataURL={speaker.image.blurDataURL}
                 width={300}
                 height={300}
               />

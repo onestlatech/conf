@@ -15,7 +15,6 @@
  */
 
 import Link from 'next/link';
-import Image from 'next/image';
 import cn from 'classnames';
 import { Sponsor } from '@lib/types';
 import styles from './sponsor-section.module.css';
@@ -59,7 +58,7 @@ export default function SponsorSection({ sponsor }: Props) {
         />
         <div className={styles.container}>
           <div className={styles['name-and-logo']}>
-            <Image
+            <img
               alt={sponsor.name}
               src={sponsor.logo.url}
               className={styles.image}

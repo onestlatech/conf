@@ -15,7 +15,6 @@
  */
 
 import cn from 'classnames';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { parseISO, format, isBefore, isAfter } from 'date-fns';
@@ -62,7 +61,7 @@ export default function TalkCard({ talk: { title, speaker, start, end }, showTim
               <div className={styles['avatar-group']}>
                 {speaker.map(s => (
                   <div key={s.name} className={styles['avatar-wrapper']}>
-                    <Image
+                    <img
                       loading="lazy"
                       alt={s.name}
                       className={styles.avatar}
