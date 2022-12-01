@@ -89,7 +89,7 @@ const stages: Stage[] = [
         speaker: [
           {
             name: 'Antonio A. Casilli',
-            bio: 'professeur de sociologie à l’Institut\n' +
+            bio: 'Professeur de sociologie à l’Institut\n' +
                 'Polytechnique de Paris, où il coordonne le groupe de recherche DiPLab (Digital Platform Labor). Il est parmi les\n' +
                 'fondateurs du réseau INDL (International Network on Digital Labor).  \n' +
                 '  En 2020 il a été conseiller éditorial de la série documentaire de France Télévisions \n' +
@@ -151,7 +151,7 @@ const stages: Stage[] = [
             name: 'Camille Gaquiere',
             bio: `"Camille officie dans les métiers du web depuis plus de 10 ans, et plus particulièrement comme Product Owner depuis 2014. Poste qu’elle occupe aujourd’hui chez Les-Tilleuls.coop à Rennes.
 Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible !) mais aussi le yoga et les jeux vidéos.`,
-            title: 'Développeuse',
+            title: 'Product Owner',
             slug: 'camille-gaquiere',
             twitter: '',
             github: '',

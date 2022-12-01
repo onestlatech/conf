@@ -74,7 +74,7 @@ export default function SpeakerSection({ speaker }: Props) {
               <span className={styles.company}>{speaker.company}</span>
             </p>
             <h2 className={styles['bio-header']}>Bio</h2>
-            <p className={styles.bio}>{speaker.bio}</p>
+            <p className={styles.bio}><ReactMarkdown>{speaker.bio}</ReactMarkdown></p>
             <h3 className={styles['socials-header']}>Réseaux sociaux</h3>
             {speaker.twitter ? (
               <a
