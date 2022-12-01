@@ -15,6 +15,7 @@
  */
 
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 import cn from 'classnames';
 import GithubIcon from '@components/icons/icon-github';
 import { Speaker } from '@lib/types';
@@ -62,7 +63,6 @@ export default function SpeakerSection({ speaker }: Props) {
             src={speaker.image.url}
             className={styles.image}
             loading="lazy"
-            height={400}
             width={300}
           />
         </div>
@@ -75,7 +75,7 @@ export default function SpeakerSection({ speaker }: Props) {
             </p>
             <h2 className={styles['bio-header']}>Bio</h2>
             <p className={styles.bio}>{speaker.bio}</p>
-            <h3 className={styles['socials-header']}>Social Media</h3>
+            <h3 className={styles['socials-header']}>Réseaux sociaux</h3>
             {speaker.twitter ? (
               <a
                 aria-label="Twitter"
@@ -111,7 +111,7 @@ export default function SpeakerSection({ speaker }: Props) {
       {speaker.talk && (
         <div className={styles['talk-details']}>
           <h3 className={styles['socials-header']}>{speaker.talk.title}</h3>
-          <p>{speaker.talk.description}</p>
+          <ReactMarkdown>{speaker.talk.description}</ReactMarkdown>
         </div>
       )}
     </>

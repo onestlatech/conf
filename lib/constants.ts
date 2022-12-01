@@ -21,7 +21,7 @@ export const BRAND_NAME = 'onestla.tech ✊';
 export const SITE_NAME_MULTILINE = ['1ère conférence', 'onestla.tech'];
 export const SITE_NAME = '1ère conférence onestla.tech';
 export const META_DESCRIPTION =
-  '1ère conférence du collectif onestla.tech le 15 décembre à la Cité des sciences : une autre tech est possible';
+  '1ère conférence du collectif onestla.tech le 15 décembre à la Cité des sciences : mettre la technologie au service du bien commun';
 export const SITE_DESCRIPTION =
   'Mettre la technologie au service du bien commun.';
 export const DATE = '15 décembre 2022';
@@ -45,12 +45,12 @@ export const NAVIGATION = [
     route: '/presentation'
   },
   {
-    name: 'Programme',
-    route: '/programme'
-  },
-  {
     name: 'Intervenant•es',
     route: '/speakers'
+  },
+  {
+    name: 'Programme',
+    route: '/programme'
   },
 ];
 

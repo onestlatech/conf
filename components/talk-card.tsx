@@ -68,14 +68,14 @@ export default function TalkCard({ talk: { title, speaker, start, end }, showTim
                       className={styles.avatar}
                       src={s.image.url}
                       title={s.name}
-                      width={24}
                       height={24}
                     />
                   </div>
                 ))}
               </div>
               <h5 className={styles.name}>
-                {speaker.length === 1 ? speaker[0].name : `${speaker.length} speakers`}
+                {speaker.map(speaker => speaker.name).join(', ')}
+                {/*speaker.length === 1 ? speaker[0].name : `${speaker.length} speakers`*/}
               </h5>
             </div>
           </div>

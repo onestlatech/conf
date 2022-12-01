@@ -38,8 +38,8 @@ export default function SpeakersGrid({ speakers }: Props) {
                 title={speaker.name}
                 placeholder={speaker.image.blurDataURL ? 'blur' : 'empty'}
                 //blurDataURL={speaker.image.blurDataURL}
-                width={300}
-                height={300}
+                width={207}
+                //height={300}
               />
             </div>
             <div className={styles.cardBody}>
