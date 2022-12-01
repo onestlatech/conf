@@ -22,7 +22,6 @@ import Layout from '@components/layout';
 
 import { getAllSpeakers } from '@lib/cms-api';
 import { Speaker } from '@lib/types';
-import { META_DESCRIPTION } from '@lib/constants';
 
 type Props = {
   speaker: Speaker;
@@ -30,8 +29,8 @@ type Props = {
 
 export default function SpeakerPage({ speaker }: Props) {
   const meta = {
-    title: 'Demo - Virtual Event Starter Kit',
-    description: META_DESCRIPTION
+    title: `${speaker.name} - conférence onestla.tech`,
+    description: speaker.talk.title,
   };
 
   return (

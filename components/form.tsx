@@ -33,7 +33,15 @@ type Props = {
 };
 
 export default function Form({ sharePage }: Props) {
-  const [email, setEmail] = useState('');
+  return <div
+      className={cn(styles.form, {
+      [styles['share-page']]: sharePage
+    })}
+  >
+    <a href="https://www.apidays.global/paris/"  className={cn(styles.submit, styles.register)}>S'inscrire</a>
+  </div>;
+
+  /*const [email, setEmail] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   const [errorTryAgain, setErrorTryAgain] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -131,7 +139,7 @@ export default function Form({ sharePage }: Props) {
 
   useEmailQueryParam('email', setEmail);
 
-  return formState === 'error' ? (
+  {return formState === 'error' ? (
     <div
       className={cn(styles.form, {
         [styles['share-page']]: sharePage
@@ -191,5 +199,5 @@ export default function Form({ sharePage }: Props) {
       </div>
       <Captcha ref={captchaRef} onVerify={handleRegister} />
     </form>
-  );
+  );*/
 }

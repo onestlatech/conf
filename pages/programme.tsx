@@ -17,40 +17,40 @@
 import { GetStaticProps } from 'next';
 
 import Page from '@components/page';
-import JobsGrid from '@components/jobs-grid';
+import Schedule from '@components/schedule';
 import Layout from '@components/layout';
 import Header from '@components/header';
 
-import { getAllJobs } from '@lib/cms-api';
-import { Job } from '@lib/types';
+import { getAllStages } from '@lib/cms-api';
+import { Stage } from '@lib/types';
 import { META_DESCRIPTION } from '@lib/constants';
 
 type Props = {
-  jobs: Job[];
+  allStages: Stage[];
 };
 
-export default function Jobs({ jobs }: Props) {
+export default function SchedulePage({ allStages }: Props) {
   const meta = {
-    title: 'Career Fair - Virtual Event Starter Kit',
+    title: 'Programme : conférence onestla.tech',
     description: META_DESCRIPTION
   };
 
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Career Fair" description={meta.description} />
-        <JobsGrid jobs={jobs} />
+        <Header hero="Programme" description={meta.description} />
+        <Schedule allStages={allStages} />
       </Layout>
     </Page>
   );
 }
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const jobs = await getAllJobs();
+  const allStages = await getAllStages();
 
   return {
     props: {
-      jobs
+      allStages
     },
     revalidate: 60
   };

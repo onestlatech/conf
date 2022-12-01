@@ -122,10 +122,10 @@
     width: 120px;
     height: 40px;
     margin-top: 0;
-    position: absolute;
+    /*position: absolute;*/
     border-radius: 5px;
-    right: var(--space-2x);
-    top: var(--space-2x);
+    /*right: var(--space-2x);
+    top: var(--space-2x);*/
   }
 }
 

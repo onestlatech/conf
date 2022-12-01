@@ -1,7 +1,7 @@
 {
-  "name": "Virtual Event Starter Kit",
-  "short_name": "Virtual Event Starter Kit",
-  "description": "Virtual Event Starter Kit -> https://demo.vercel.events",
+  "name": "Conférence onestla.tech",
+  "short_name": "Conférence onestla.tech",
+  "description": "Conférence onestla.tech",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#fff",
@@ -9,14 +9,9 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/avatar.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
-  ]
+ ]
 }

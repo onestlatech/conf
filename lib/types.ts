@@ -27,7 +27,7 @@ export type Speaker = {
   twitter: string;
   github: string;
   company: string;
-  talk: Talk;
+  talk?: Talk;
   image: Image;
   imageSquare: Image;
 };
@@ -35,13 +35,13 @@ export type Speaker = {
 export type Stage = {
   name: string;
   slug: string;
-  stream: string;
-  discord: string;
+  stream?: string;
+  discord?: string;
   schedule: Talk[];
-  isLive: boolean;
-  roomId: string;
-  stagePeers: string[];
-  backstagePeers: string[];
+  isLive?: boolean;
+  roomId?: string;
+  stagePeers?: string[];
+  backstagePeers?: string[];
 };
 
 export type Talk = {

@@ -19,6 +19,7 @@ export default function IconLogo({
   foregroundColor = 'var(--accents-1)',
   ...props
 }) {
+  return <>✊ on<b>est</b>la.tech/</>;
   return (
     <svg
       width="100%"

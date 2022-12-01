@@ -1,0 +1,16 @@
+.content {
+  font-size: var(--text-md);
+  line-height: 1.4;
+  color: var(--secondary-color);
+  margin-top: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    margin-left: var(--space-8x);
+    margin-right: var(--space-8x);
+    text-align: jusitify;
+  }
+}

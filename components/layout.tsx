@@ -75,17 +75,17 @@ export default function Layout({
               ))}
             </div>
 
-            {(hmsConfig.hmsIntegration && isLive && !disableCta.includes(activeRoute)) ||
+            {/*(hmsConfig.hmsIntegration && isLive && !disableCta.includes(activeRoute)) ||
             activeRoute === '/' ? (
               <div className={cn(styles['header-right'])}>
                 {activeRoute === '/' ? <DemoButton /> : <RoomCta />}
               </div>
             ) : (
               <div />
-            )}
+            )*/}
           </header>
         )}
-        <ViewSource />
+        {/*<ViewSource />*/}
         <div className={styles.page}>
           <main className={styles.main} style={layoutStyles}>
             <SkipNavContent />

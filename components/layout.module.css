@@ -52,7 +52,7 @@
 }
 
 .header-logos {
-  max-width: 200px;
+  max-width: 300px;
   display: flex;
   align-items: center;
   margin: var(--space-2x) var(--space-4x);
@@ -114,5 +114,7 @@
 
 .logo {
   display: flex;
-  width: 40px;
+  /*width: 40px;*/
+  font-size: 150%;
+  font-family: "IBM Plex Mono", monospace;
 }

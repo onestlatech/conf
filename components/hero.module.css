@@ -78,3 +78,7 @@
     margin: 40px auto;
   }
 }
+
+.logo {
+  font-family: "IBM Plex Mono", monospace;
+}

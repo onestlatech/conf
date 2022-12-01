@@ -41,10 +41,10 @@ export default function Footer() {
           <HostedByVercel />
           <div className={styles['footer-separator']} />
         </div>
-        <div className={styles['footer-copyright']}>
+        {/*<div className={styles['footer-copyright']}>
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
           rights reserved.
-        </div>
+        </div>*/}
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
             <a
@@ -53,7 +53,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Source Code
+              Code source
             </a>
           </p>
           <div className={styles['footer-separator']} />
@@ -64,7 +64,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Code of Conduct
+              Code de conduite
             </a>
           </p>
           {LEGAL_URL && (
@@ -77,7 +77,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Legal
+                  Politique de confidentialité
                 </a>
               </p>
             </>

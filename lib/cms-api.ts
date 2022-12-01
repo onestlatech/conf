@@ -22,6 +22,8 @@ import * as contentfulApi from './cms-providers/contentful';
 import * as prismicApi from './cms-providers/prismic';
 import * as storyblokApi from './cms-providers/storyblok';
 
+import stages, { getSpeakers } from '../data';
+
 let cmsApi: {
   getAllSpeakers: () => Promise<Speaker[]>;
   getAllStages: () => Promise<Stage[]>;
@@ -47,8 +49,8 @@ if (process.env.DATOCMS_READ_ONLY_API_TOKEN) {
   cmsApi = strapiApi;
 } else {
   cmsApi = {
-    getAllSpeakers: () => Promise.resolve([]),
-    getAllStages: () => Promise.resolve([]),
+    getAllSpeakers: () => Promise.resolve(getSpeakers()),
+    getAllStages: () => Promise.resolve(stages),
     getAllSponsors: () => Promise.resolve([]),
     getAllJobs: () => Promise.resolve([])
   };
