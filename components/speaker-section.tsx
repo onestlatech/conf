@@ -60,7 +60,7 @@ export default function SpeakerSection({ speaker }: Props) {
           <img
             alt={speaker.name}
             title={speaker.name}
-            src={speaker.image.url}
+            src={`/pictures/${speaker.slug}.jpg`}
             className={styles.image}
             loading="lazy"
             width={300}
