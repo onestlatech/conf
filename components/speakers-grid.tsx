@@ -38,7 +38,7 @@ export default function SpeakersGrid({ speakers }: Props) {
                 title={speaker.name}
                 placeholder={speaker.image.blurDataURL ? 'blur' : 'empty'}
                 //blurDataURL={speaker.image.blurDataURL}
-                width={207}
+                //width={207}
                 //height={300}
               />
             </div>
