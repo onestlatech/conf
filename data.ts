@@ -109,56 +109,22 @@ const stages: Stage[] = [
         ]
       },
       {
-        title: 'Table ronde "Femmes dans la tech"',
-        description: 'Plus de détails bientôt',
+        title: 'Pourquoi et comment en est on arrivés à créer OnEstLatech',
+        description: 'Petite histoire de la politisation de la tech à la française',
         start: '2022-12-15T12:40:00.00Z',
-        end: '2022-12-15T13:20:00.00Z',
+        end: '2022-12-15T13:00:00.00Z',
         speaker: [
           {
-            name: 'Marine Gandy',
-            bio: 'Présidente de Drupal France, ingénieure chez Platform.sh, militante féministe',
-            title: 'Présidente',
-            slug: 'marine-gandy',
-            twitter: 'https://twitter.com/mupsigraphy',
-            github: 'https://github.com/Mupsi',
-            company: 'Drupal France',
-            image: { url: 'https://pbs.twimg.com/profile_images/1564987071084826626/yr9LOcgU_400x400.jpg'},
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1564987071084826626/yr9LOcgU_400x400.jpg'}
-          },
-          {
-            name: 'Magali Milbergue',
-            bio: 'Membre du bureau de l\'AFUP (Association Française des Utilisateurs de PHP), développeuse, formatrice, activiste et militante féministe',
-            title: 'Membre du bureau',
-            slug: 'magali-milbergue',
-            twitter: 'https://twitter.com/MagaliMilbergue',
-            github: '',
-            company: 'AFUP',
-            image: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'},
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'}
-          },
-          {
-            name: 'Marcy Charollois',
-            bio: 'Membre de Duchess, consultante, militante féministe',
-            title: 'Fondatrice',
-            slug: 'marcy-charollois',
-            twitter: 'https://twitter.com/MarcyChama',
-            github: '',
-            company: 'merci marcy',
-            image: { url: 'https://pbs.twimg.com/profile_images/1597551893747752964/jO0pJOaK_400x400.jpg'},
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1597551893747752964/jO0pJOaK_400x400.jpg'}
-          },
-          {
-            name: 'Camille Gaquiere',
-            bio: `"Camille officie dans les métiers du web depuis plus de 10 ans, et plus particulièrement comme Product Owner depuis 2014. Poste qu’elle occupe aujourd’hui chez Les-Tilleuls.coop à Rennes.
-Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible !) mais aussi le yoga et les jeux vidéos.`,
-            title: 'Product Owner',
-            slug: 'camille-gaquiere',
-            twitter: '',
-            github: '',
-            company: 'Les-Tilleuls.coop',
-            image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'},
-            imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'}
-          },
+            name: 'Hélène Maître-Marchois',
+            bio: 'Co-fondatrice de la coopérative Fairness et du collectif OnEstLaTech.',
+            title: 'Co-fondatrice',
+            slug: 'helene-maitre-marchois',
+            twitter: 'https://twitter.com/HeleneMaitre',
+            github: 'https://github.com/hmmarchois',
+            company: 'Fairness',
+            image: { url: ''},
+            imageSquare: { url: ''}
+          }
         ]
       },
       {
@@ -208,6 +174,70 @@ Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible 
             image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' },
             imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' }
           }
+        ]
+      }, 
+      {
+        title: 'Table ronde "Femmes dans la tech"',
+        description: 'Plus de détails bientôt',
+        start: '2022-12-15T14:00:00.00Z',
+        end: '2022-12-15T14:50:00.00Z',
+        speaker: [
+          {
+            name: 'Marine Gandy',
+            bio: 'Présidente de Drupal France, ingénieure chez Platform.sh, militante féministe',
+            title: 'Présidente',
+            slug: 'marine-gandy',
+            twitter: 'https://twitter.com/mupsigraphy',
+            github: 'https://github.com/Mupsi',
+            company: 'Drupal France',
+            image: { url: 'https://pbs.twimg.com/profile_images/1564987071084826626/yr9LOcgU_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1564987071084826626/yr9LOcgU_400x400.jpg'}
+          },
+          {
+            name: 'Magali Milbergue',
+            bio: 'Créatrice Web et activiste',
+            title: 'Membre du bureau',
+            slug: 'magali-milbergue',
+            twitter: 'https://twitter.com/MagaliMilbergue',
+            github: '',
+            company: 'AFUP',
+            image: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'}
+          },
+          {
+            name: 'Marcy Charollois',
+            bio: 'Membre de Duchess, consultante, militante féministe',
+            title: 'Fondatrice',
+            slug: 'marcy-charollois',
+            twitter: 'https://twitter.com/MarcyChama',
+            github: '',
+            company: 'merci marcy',
+            image: { url: 'https://pbs.twimg.com/profile_images/1597551893747752964/jO0pJOaK_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1597551893747752964/jO0pJOaK_400x400.jpg'}
+          },
+          {
+            name: 'Camille Gaquiere',
+            bio: `"Camille officie dans les métiers du web depuis plus de 10 ans, et plus particulièrement comme Product Owner depuis 2014. Poste qu’elle occupe aujourd’hui chez Les-Tilleuls.coop à Rennes.
+Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible !) mais aussi le yoga et les jeux vidéos.`,
+            title: 'Product Owner',
+            slug: 'camille-gaquiere',
+            twitter: '',
+            github: '',
+            company: 'Les-Tilleuls.coop',
+            image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'},
+            imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'}
+          },
+          {
+            name: 'Emmanuelle Aboaf',
+            bio: "Développeuse, spécialiste de l'accessibilité, #a11y ",
+            title: 'developpeuse, accessibilité',
+            slug: 'emmanuelle-aboaf',
+            twitter: 'https://twitter.com/eaboaf_',
+            github: '',
+            company: 'DCube',
+            image: { url: ''},
+            imageSquare: { url: ''}
+          },
         ]
       },
       {
