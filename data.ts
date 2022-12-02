@@ -122,8 +122,8 @@ const stages: Stage[] = [
             twitter: 'https://twitter.com/HeleneMaitre',
             github: 'https://github.com/hmmarchois',
             company: 'Fairness',
-            image: { url: ''},
-            imageSquare: { url: ''}
+            image: { url: 'https://pbs.twimg.com/profile_images/1322541489663234049/zjp4TU69_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1322541489663234049/zjp4TU69_400x400.jpg'}
           }
         ]
       },
@@ -235,8 +235,8 @@ Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible 
             twitter: 'https://twitter.com/eaboaf_',
             github: '',
             company: 'DCube',
-            image: { url: ''},
-            imageSquare: { url: ''}
+            image: { url: 'https://pbs.twimg.com/profile_images/1196540483864018944/5BN88UY6_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1196540483864018944/5BN88UY6_400x400.jpg'}
           },
         ]
       },
