@@ -52,6 +52,10 @@ export const NAVIGATION = [
     name: 'Programme',
     route: '/programme'
   },
+  {
+    name: 'Le collectif',
+    route: 'https://onestla.tech'
+  },
 ];
 
 export type TicketGenerationState = 'default' | 'loading';
