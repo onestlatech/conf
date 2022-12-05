@@ -44,8 +44,12 @@ const stages: Stage[] = [
         ]
       },
       {
-        title: 'Tech et Politique',
-        description: 'Plus de détails bientôt',
+        title: 'Quel numérique voulons-nous pour demain ?',
+        description: `Le numérique est omniprésent dans nos vies pour communiquer, s'informer, consommer, organiser nos tâches du quotidien....
+
+Aujourd'hui les grandes directions de développement des outils numérique sont gérées soit par la dynamique des grandes entreprises comme Google/Alphabet, IBM, Apple, Amazon, Microsoft ou Meta; ou par des politiques publiques qui font souvent fi des volontés des usagers de l'espace numérique et de ses techniciens.
+
+Economie de l'attention développée par les grandes firmes, capitalisme de surveillance propulsée par les gouvernements du monde, une autre tech est elle possible au milieu de tout cela ?`,
         start: '2022-12-15T10:30:00.00Z',
         end: '2022-12-15T10:50:00.00Z',
         speaker: [
@@ -116,8 +120,8 @@ const stages: Stage[] = [
         speaker: [
           {
             name: 'Hélène Maître-Marchois',
-            bio: 'Co-fondatrice de la coopérative Fairness et du collectif OnEstLaTech.',
-            title: 'Co-fondatrice',
+            bio: 'Cofondatrice de la coopérative Fairness et du collectif OnEstLaTech.',
+            title: 'Cofondatrice',
             slug: 'helene-maitre-marchois',
             twitter: 'https://twitter.com/HeleneMaitre',
             github: 'https://github.com/hmmarchois',
@@ -267,7 +271,7 @@ Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible 
         speaker: [
           {
             name: 'Benjamin Sonntag',
-            bio: 'Co-fondateur de la Quadrature du Net,\n' +
+            bio: 'Cofondateur de la Quadrature du Net,\n' +
                 'association de défense des libertés à l\'ère numérique, et gérant d\'Octopuce, hébergeur français rassemblant des informaticiens\n' +
                 '""du temps long"", entreprise qui héberge des entreprise et aide des activistes.  \n' +
                 'Concerné très tôt par les problèmes d\'écologie politique, il propose aujourd\'hui de réfléchir ensemble aux enjeux de \n' +
