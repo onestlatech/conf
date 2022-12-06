@@ -200,11 +200,11 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
           {
             name: 'Magali Milbergue',
             bio: 'Créatrice Web et activiste',
-            title: 'Membre du bureau',
+            title: 'Créatrice Web et activiste',
             slug: 'magali-milbergue',
             twitter: 'https://twitter.com/MagaliMilbergue',
             github: '',
-            company: 'AFUP',
+            company: '',
             image: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'},
             imageSquare: { url: 'https://pbs.twimg.com/profile_images/1576863897117757440/exzaC2wf_400x400.jpg'}
           },
