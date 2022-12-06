@@ -9,7 +9,7 @@ const stages: Stage[] = [
         title: 'Le soin de choses, ou qui maintient la société',
         description: `Qu’ont en commun une chaudière, une voiture, un panneau de signalétique, un smartphone, une cathédrale, une œuvre d’art, un satellite, un lave-linge, un pont, une horloge, un serveur informatique, le corps d’un illustre homme d’État, un tracteur ? Presque rien, si ce n’est qu’aucune de ces choses, petite ou grande, précieuse ou banale, ne perdure sans une forme d’entretien. Tout objet s’use, se dégrade, finit par se casser, voire par disparaître. Pour autant, mesure-t-on bien l’importance de la maintenance ? Contrepoint de l’obsession contemporaine pour l’innovation, moins spectaculaire que l’acte singulier de la réparation, cet art délicat de faire durer les choses n’est que très rarement porté à notre attention.`,
         start: '2022-12-15T09:50:00.00Z',
-        end: '2022-12-15T10:10:00.00Z',
+        end: '2022-12-15T10:15:00.00Z',
         speaker: [
           {
             name: "Jérôme Denis",
@@ -25,33 +25,14 @@ const stages: Stage[] = [
         ]
       },
       {
-        title: 'Les ingénieurs déserteurs',
-        description: 'Plus de détails bientôt',
-        start: '2022-12-15T10:10:00.00Z',
-        end: '2022-12-15T10:30:00.00Z',
-        speaker: [
-          {
-            name: 'Alexandre Monnin',
-            bio: 'Chercheur, auteur de "Héritage et fermeture", intervenant sur les Ingénierus Déserteurs',
-            title: 'Chercheur',
-            slug: 'alexandre-monnin',
-            twitter: 'https://twitter.com/aamonnz',
-            github: '',
-            company: 'ESC Clermont BS',
-            image: { url: 'https://pbs.twimg.com/profile_images/1498284532222541827/lUkGTpCZ_400x400.jpg'},
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1498284532222541827/lUkGTpCZ_400x400.jpg'}
-          }
-        ]
-      },
-      {
         title: 'Quel numérique voulons-nous pour demain ?',
         description: `Le numérique est omniprésent dans nos vies pour communiquer, s'informer, consommer, organiser nos tâches du quotidien....
 
 Aujourd'hui les grandes directions de développement des outils numérique sont gérées soit par la dynamique des grandes entreprises comme Google/Alphabet, IBM, Apple, Amazon, Microsoft ou Meta; ou par des politiques publiques qui font souvent fi des volontés des usagers de l'espace numérique et de ses techniciens.
 
 Economie de l'attention développée par les grandes firmes, capitalisme de surveillance propulsée par les gouvernements du monde, une autre tech est elle possible au milieu de tout cela ?`,
-        start: '2022-12-15T10:30:00.00Z',
-        end: '2022-12-15T10:50:00.00Z',
+        start: '2022-12-15T10:15:00.00Z',
+        end: '2022-12-15T10:40:00.00Z',
         speaker: [
           {
             name: 'Sacha André',
@@ -69,8 +50,8 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       {
         title: 'Les algorithmes contre la Sociale',
         description: 'Plus de détails bientôt',
-        start: '2022-12-15T10:50:00.00Z',
-        end: '2022-12-15T11:10:00.00Z',
+        start: '2022-12-15T10:40:00.00Z',
+        end: '2022-12-15T11:05:00.00Z',
         speaker: [
           {
             name: 'Hubert Guillaud',
@@ -88,7 +69,7 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       {
         title: `Qu'est-ce qu'une technologie vraiment éthique? Travail globalisé et durabilité environnementale`,
         description: 'Plus de détails bientôt',
-        start: '2022-12-15T11:10:00.00Z',
+        start: '2022-12-15T11:05:00.00Z',
         end: '2022-12-15T11:30:00.00Z',
         speaker: [
           {
@@ -128,6 +109,25 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
             company: 'Fairness',
             image: { url: 'https://pbs.twimg.com/profile_images/1322541489663234049/zjp4TU69_400x400.jpg'},
             imageSquare: { url: 'https://pbs.twimg.com/profile_images/1322541489663234049/zjp4TU69_400x400.jpg'}
+          }
+        ]
+      },
+      {
+        title: 'Les ingénieurs déserteurs',
+        description: 'Plus de détails bientôt',
+        start: '2022-12-15T10:15:00.00Z',
+        end: '2022-12-15T10:40:00.00Z',
+        speaker: [
+          {
+            name: 'Alexandre Monnin',
+            bio: 'Chercheur, auteur de "Héritage et fermeture", intervenant sur les Ingénierus Déserteurs',
+            title: 'Chercheur',
+            slug: 'alexandre-monnin',
+            twitter: 'https://twitter.com/aamonnz',
+            github: '',
+            company: 'ESC Clermont BS',
+            image: { url: 'https://pbs.twimg.com/profile_images/1498284532222541827/lUkGTpCZ_400x400.jpg'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1498284532222541827/lUkGTpCZ_400x400.jpg'}
           }
         ]
       },
