@@ -220,18 +220,6 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
             imageSquare: { url: 'https://pbs.twimg.com/profile_images/1597551893747752964/jO0pJOaK_400x400.jpg'}
           },
           {
-            name: 'Camille Gaquiere',
-            bio: `"Camille officie dans les métiers du web depuis plus de 10 ans, et plus particulièrement comme Product Owner depuis 2014. Poste qu’elle occupe aujourd’hui chez Les-Tilleuls.coop à Rennes.
-Elle aime concevoir des interfaces et rédiger de la doc (oui, c’est possible !) mais aussi le yoga et les jeux vidéos.`,
-            title: 'Product Owner',
-            slug: 'camille-gaquiere',
-            twitter: '',
-            github: '',
-            company: 'Les-Tilleuls.coop',
-            image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'},
-            imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQG-hHBF-8-Llg/profile-displayphoto-shrink_800_800/0/1634574971379?e=1675296000&v=beta&t=dqU9roDvt457noqE7A04YD0_jgC569lCHqyC3AATRc0'}
-          },
-          {
             name: 'Emmanuelle Aboaf',
             bio: "Développeuse, spécialiste de l'accessibilité, #a11y ",
             title: 'developpeuse, accessibilité',
