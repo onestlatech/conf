@@ -97,7 +97,7 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
         title: 'Pourquoi et comment en est on arrivés à créer OnEstLatech',
         description: 'Petite histoire de la politisation de la tech à la française',
         start: '2022-12-15T12:40:00.00Z',
-        end: '2022-12-15T13:00:00.00Z',
+        end: '2022-12-15T13:05:00.00Z',
         speaker: [
           {
             name: 'Hélène Maître-Marchois',
@@ -115,8 +115,8 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       {
         title: 'Les ingénieurs déserteurs',
         description: 'Plus de détails bientôt',
-        start: '2022-12-15T10:15:00.00Z',
-        end: '2022-12-15T10:40:00.00Z',
+        start: '2022-12-15T13:05:00.00Z',
+        end: '2022-12-15T13:30:00.00Z',
         speaker: [
           {
             name: 'Alexandre Monnin',
@@ -134,8 +134,8 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       {
         title: 'Wiki Trans : l\'inclusion ouverte, libre et collaborative',
         description: 'Plus de détails bientôt',
-        start: '2022-12-15T13:20:00.00Z',
-        end: '2022-12-15T13:40:00.00Z',
+        start: '2022-12-15T13:30:00.00Z',
+        end: '2022-12-15T13:55:00.00Z',
         speaker: [
           {
             name: 'Agathe Mametz',
@@ -151,39 +151,9 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
         ]
       },
       {
-        title: 'Le modèle coopératif',
-        description: 'Plus de détails bientôt',
-        start: '2022-12-15T13:40:00.00Z',
-        end: '2022-12-15T14:00:00.00Z',
-        speaker: [
-          {
-            name: 'Marion Agé',
-            bio: 'Cogérante et CTO de Les-Tilleuls.coop',
-            title: 'Cogérante',
-            slug: 'marion-age',
-            twitter: 'https://twitter.com/marion_age',
-            github: 'https://github.com/K-mos',
-            company: 'Les-Tilleuls.coop',
-            image: { url: 'https://pbs.twimg.com/profile_images/897752740956442624/tjkmlKbk_400x400.jpg' },
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/897752740956442624/tjkmlKbk_400x400.jpg' }
-          },
-          {
-            name: 'Cécile Staehle',
-            bio: 'Coopératrice en charge du développement RH chez Troopers',
-            title: 'Coopératrice',
-            slug: 'cecile-staehle',
-            twitter: '',
-            github: '',
-            company: 'Troopers',
-            image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' },
-            imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' }
-          }
-        ]
-      }, 
-      {
         title: 'Table ronde "Femmes dans la tech"',
         description: 'Plus de détails bientôt',
-        start: '2022-12-15T14:00:00.00Z',
+        start: '2022-12-15T13:55:00.00Z',
         end: '2022-12-15T14:50:00.00Z',
         speaker: [
           {
@@ -233,24 +203,35 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
         ]
       },
       {
-        title: 'Données Personnelles',
-        description: '',
+        title: 'Le modèle coopératif',
+        description: 'Plus de détails bientôt',
         start: '2022-12-15T14:50:00.00Z',
-        end: '2022-12-15T15:20:00.00Z',
+        end: '2022-12-15T15:15:15.00Z',
         speaker: [
           {
-            name: 'Guillaume Champeau',
-            bio: 'directeur juridique et affaires publiques chez Clever Cloud, fondateur de Numérama.',
-            title: 'Directeur juridique',
-            slug: 'guillaume-champeau',
-            twitter: 'https://twitter.com/gchampeau',
+            name: 'Marion Agé',
+            bio: 'Cogérante et CTO de Les-Tilleuls.coop',
+            title: 'Cogérante',
+            slug: 'marion-age',
+            twitter: 'https://twitter.com/marion_age',
+            github: 'https://github.com/K-mos',
+            company: 'Les-Tilleuls.coop',
+            image: { url: 'https://pbs.twimg.com/profile_images/897752740956442624/tjkmlKbk_400x400.jpg' },
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/897752740956442624/tjkmlKbk_400x400.jpg' }
+          },
+          {
+            name: 'Cécile Staehle',
+            bio: 'Coopératrice en charge du développement RH chez Troopers',
+            title: 'Coopératrice',
+            slug: 'cecile-staehle',
+            twitter: '',
             github: '',
-            company: 'Clever Cloud',
-            image: { url: 'https://pbs.twimg.com/profile_images/1452611282536914944/8qvxeOIk_400x400.jpg'},
-            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1452611282536914944/8qvxeOIk_400x400.jpg'}
+            company: 'Troopers',
+            image: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' },
+            imageSquare: { url: 'https://media-exp1.licdn.com/dms/image/C4D03AQGiYBMAZ9-fTw/profile-displayphoto-shrink_800_800/0/1643883516048?e=1675296000&v=beta&t=mT-nIRFNH_2jSNyxAu9GilOqldF_crjyo9df5-8kHtY' }
           }
         ]
-      },
+      }, 
       {
         title: 'Ecologie Numérique concrète',
         description: `On entend souvent parler de l'écologie dans le monde numérique, sans trop savoir quoi faire pour que nos outils consomment moins de ressource et d'énergie.
@@ -260,7 +241,7 @@ Le problème est très complexe, tant l'imbrication  dans nos vies des outils nu
 Je vous propose de parcourir ensemble un chemin rappelant les principes de bases du numérique, de l'écologie, et enfin de l'écologie des outils numériques.
 
 Nous arriverons rapidement à des propositions certaines évidentes, d'autres plus controversées...`,
-        start: '2022-12-15T15:20:00.00Z',
+        start: '2022-12-15T15:15:00.00Z',
         end: '2022-12-15T15:40:00.00Z',
         speaker: [
           {
@@ -294,7 +275,7 @@ Aujourd’hui encore, les travailleuses et les travailleurs de la tech sont en m
         
 « Don’t mourn, organize! »`,
         start: '2022-12-15T15:40:00.00Z',
-        end: '2022-12-15T16:00:00.00Z',
+        end: '2022-12-15T16:05:00.00Z',
         speaker: [
           {
             name: 'Kévin Dunglas',
@@ -323,7 +304,7 @@ Aujourd’hui encore, les travailleuses et les travailleurs de la tech sont en m
       {
         title: 'Assemblée Générale du collectif',
         description: `Une AG pour déterminer la direction que doit prendre le mouvement.`,
-        start: '2022-12-15T16:00:00.00Z',
+        start: '2022-12-15T16:05:00.00Z',
         end: '2022-12-15T17:00:00.00Z',
         speaker: [
           {
