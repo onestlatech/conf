@@ -253,19 +253,24 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       },
       {
         title: 'Ecologie Numérique concrète',
-        description: 'Plus de détails bientôt',
+        description: `On entend souvent parler de l'écologie dans le monde numérique, sans trop savoir quoi faire pour que nos outils consomment moins de ressource et d'énergie.
+
+Le problème est très complexe, tant l'imbrication  dans nos vies des outils numériques, visibles ou non, est importante.
+
+Je vous propose de parcourir ensemble un chemin rappelant les principes de bases du numérique, de l'écologie, et enfin de l'écologie des outils numériques.
+
+Nous arriverons rapidement à des propositions certaines évidentes, d'autres plus controversées...`,
         start: '2022-12-15T15:20:00.00Z',
         end: '2022-12-15T15:40:00.00Z',
         speaker: [
           {
             name: 'Benjamin Sonntag',
-            bio: 'Cofondateur de la Quadrature du Net,\n' +
-                'association de défense des libertés à l\'ère numérique, et gérant d\'Octopuce, hébergeur français rassemblant des informaticiens\n' +
-                '""du temps long"", entreprise qui héberge des entreprise et aide des activistes.  \n' +
-                'Concerné très tôt par les problèmes d\'écologie politique, il propose aujourd\'hui de réfléchir ensemble aux enjeux de \n' +
-                'l\'écologie du numérique, en prenant en compte la complexité de nos sociétés, l\'intrication de nos outils industriels,\n' +
-                'la prise d\'otage de notre cognition, et la difficulté qu\'a l\'humanité de revenir sur ses choix.',
-            title: 'Fondateur',
+            bio: `Cofondateur de la Quadrature du Net, association de défense des libertés à l'ère numérique,
+et gérant d'Octopuce, hébergeur français rassemblant des informaticiens "du temps long", entreprise qui héberge des entreprise et aide des activistes.
+
+Concerné très tôt par les problèmes d'écologie politique, Benjamin propose aujourd'hui de réfléchir ensemble aux enjeux de l'écologie du numérique,
+en prenant en compte la complexité de nos sociétés, l'intrication de nos outils industriels, la prise d'otage de notre cognition, et la difficulté qu'a l'humanité de revenir sur ses choix.`,
+            title: 'Cofondateur',
             slug: 'benjamin-sonntag',
             twitter: 'https://twitter.com/vincib',
             github: 'https://github.com/vincib',
