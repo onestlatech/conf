@@ -200,6 +200,17 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
             image: { url: 'https://pbs.twimg.com/profile_images/1196540483864018944/5BN88UY6_400x400.jpg'},
             imageSquare: { url: 'https://pbs.twimg.com/profile_images/1196540483864018944/5BN88UY6_400x400.jpg'}
           },
+          {
+            name: 'Gaëlle Kubila',
+            bio: "Étudiante en BUT informatique",
+            title: 'Étudiante',
+            slug: 'gaelle-kubila',
+            twitter: 'https://twitter.com/RayonnanteGaga',
+            github: '',
+            company: 'BUT informatique',
+            image: { url: 'https://pbs.twimg.com/profile_images/1533784421945311233/Cw9CTP6m_400x400.png'},
+            imageSquare: { url: 'https://pbs.twimg.com/profile_images/1533784421945311233/Cw9CTP6m_400x400.png'}
+          }
         ]
       },
       {
