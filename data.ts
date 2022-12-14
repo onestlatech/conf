@@ -215,7 +215,11 @@ Economie de l'attention développée par les grandes firmes, capitalisme de surv
       },
       {
         title: 'Le modèle coopératif',
-        description: 'Plus de détails bientôt',
+        description: `Comment s'organiser autrement au sein d'une entreprise privée ? Les coopératives proposent une façon efficace de redonner le contrôle de leur moyen de production aux travailleuses et travailleurs. Leur entreprise leur appartient, les décisions sont prises de manière démocratique, et les bénéfices générés sont répartis équitablement.
+
+Cécile est coopératrice chez [Troopers](https://troopers.coop), une agence qui a évolué en Scop en 2021. 
+Marion est coopératrice et co-gérante de [Les-Tilleuls.coop](https://les-tilleuls.coop), société coopérative créée 10 ans plus tôt. 
+Deux exemples concrets de coopératives de la tech, avec pourtant un historique et une organisation différente, pour un même objectif : redonner le pouvoir à celles et ceux qui forment la vraie richesse de la société, lutter contre les discriminations et promouvoir une société libertaire et égalitaire.`,
         start: '2022-12-15T14:50:00.00Z',
         end: '2022-12-15T15:15:15.00Z',
         speaker: [
